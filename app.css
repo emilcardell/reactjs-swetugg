@@ -1,5 +1,5 @@
 body {
-    background-color: #F68A21;
+    background-color: #EF4623;
     font-family: sans-serif;
     color: #ffffff;
     font-size: 20px;
@@ -15,4 +15,18 @@ button {
   border: none;
   font-size: 24px;
   padding: 0 30px;
+}
+
+input {
+  background-color: #fff;
+  color: #000;
+  border-radius: 30px;
+  height: 60px;
+  border: none;
+  font-size: 24px;
+  padding: 0 30px;
+}
+
+input[type="submit"], button {
+    margin-left: 20px;
 }

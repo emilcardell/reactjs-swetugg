@@ -1,6 +1,9 @@
 import React from 'react';
 
 const App = React.createClass({
+    propTypes: {
+        counterStart: React.PropTypes.number
+    },
     getInitialState() { return { counter: 0 }; },
     resetCounter() { this.setState({ counter: 0 }); },
     componentDidMount() {
